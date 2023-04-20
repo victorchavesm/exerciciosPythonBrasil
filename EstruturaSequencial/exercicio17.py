@@ -39,5 +39,3 @@ print('-'*50)
 print(f'Apenas galões de 3.6 litros: \nSeriam necessários {galoes} galões, o que daria: R$ {precoG:.2f}')
 print('-'*50)
 print(f'Misturando latas e galões:\nSeriam necessárias {latas} latas e {galoes} galões, o que daria: R$ {precoM:.2f}')
-
-
