@@ -6,12 +6,12 @@
 
 # 1 litro = 3m²
 # 18 litros = 54m²
-# 1 lata = R$ 18.00
+# 1 lata = R$ 80.00
 
 area = float(input('Digite a área total em m² a ser pintada: '))
 quantidade_litros = area / 3
 latas = int(quantidade_litros / 18)
-preco = latas * 18
+preco = latas * 80
 
 if quantidade_litros % 18 != 0:
     latas += 1
