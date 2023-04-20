@@ -34,10 +34,10 @@ precoM = (misturaL * 80) + (misturaG * 25)
 
 # -----------
 print('-'*50)
-print(f'Apenas latas de 18 litros: \nTotal de {latas} latas, o que daria: R$ {precoL:.2f}')
+print(f'Apenas latas de 18 litros: \nSeriam necessárias {latas} latas, o que daria: R$ {precoL:.2f}')
 print('-'*50)
-print(f'Apenas galões de 3.6 litros: \nTotal de {galoes} galoes, o que daria: R$ {precoG:.2f}')
+print(f'Apenas galões de 3.6 litros: \nSeriam necessários {galoes} galões, o que daria: R$ {precoG:.2f}')
 print('-'*50)
-print(f'Misturando latas e galões:\nTotal de {latas} latas e {galoes} galoes, o que daria: R$ {precoM:.2f}')
+print(f'Misturando latas e galões:\nSeriam necessárias {latas} latas e {galoes} galões, o que daria: R$ {precoM:.2f}')
 
 
