@@ -9,8 +9,8 @@ nota2 = float(input('Digite a segunda nota: '))
 media = (nota1 + nota2) / 2
 
 if media >= 7 and media < 10:
-    print(f'A média do aluno foi {media}\nO aluno está APROVADO.')
+    print(f'A média do aluno foi {media} \nO aluno está APROVADO.')
 elif media == 10:
-    print(f'A média do aluno foi {media}\nO aluno foi APROVADO COM DISTINÇÃO. Parabéns!')
+    print(f'A média do aluno foi {media} \nO aluno foi APROVADO COM DISTINÇÃO. Parabéns!')
 else:
-    print(f'A média do aluno foi {media}\nO aluno está REPROVADO')
+    print(f'A média do aluno foi {media} \nO aluno está REPROVADO')
