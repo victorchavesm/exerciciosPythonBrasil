@@ -19,21 +19,17 @@ print()
 print('~ ~ ~ ~ ~ CALCULANDO ~ ~ ~ ~ ~')
 print()
 if salario <= 280:
-    salario_final = salario * 1.2
     porcento = 20
-    aumento = salario_final - salario
 elif salario <= 700:
-    salario_final = salario * 1.15
     porcento = 15
-    aumento = salario_final - salario
 elif salario < 1500:
-    salario_final = salario * 1.1
     porcento = 10
-    aumento = salario_final - salario
 else:
-    salario_final = salario * 1.05
     porcento = 5
-    aumento = salario_final - salario
+
+aumento = salario * (porcento/100)
+salario_final = aumento + salario
+
 print(f'O seu salário antes do aumento era: R$ {salario:.2f}')
 print(f'Você recebeu {porcento}% de aumento.')
 print(f'O aumento em reais foi o equivalente a: R$ {aumento:.2f}')
