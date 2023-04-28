@@ -45,3 +45,4 @@ print(f'(-) INSS (10%):                 R$ {inss:.2f}'),
 print(f'(-) Sindicato (3%)              R$ {sindicato:.2f}')
 print(f'    Total de descontos:         R$ {total_descontos:.2f}')
 print(f'    Salário líquido:            R$ {salario_liquido:.2f}')
+

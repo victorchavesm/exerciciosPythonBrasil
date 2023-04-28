@@ -12,3 +12,4 @@ elif num2 > num3:
     print(f'{num2} é o maior número digitado.')
 else:
     print(f'{num3} é o maior número digitado.')
+    

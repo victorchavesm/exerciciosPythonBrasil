@@ -15,4 +15,3 @@ elif prod2 < prod1 and prod2 < prod3:
 else:
     menor = prod3
 print(f'Você deve comprar o produto que custa R$ {menor:.2f}')
-

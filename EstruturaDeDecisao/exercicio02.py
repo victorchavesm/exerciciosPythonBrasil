@@ -8,3 +8,4 @@ elif valor > 0:
      print(f'{valor} é um número positivo.')
 else:
     print(f'Você digitou zero. \nZero é um número neutro, ou seja, não é um número nem positivo e nem negativo.')
+    

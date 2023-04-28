@@ -9,3 +9,4 @@ elif num1 < num2:
    print(f'O maior número é {num2}')
 else:
     print('Os números são iguais')
+    

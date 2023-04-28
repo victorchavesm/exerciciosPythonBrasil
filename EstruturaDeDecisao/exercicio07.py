@@ -21,3 +21,4 @@ else:
         print(f'O menor numero é: {num2}')
     else:
         print(f'O menor numero é: {num3}')
+        

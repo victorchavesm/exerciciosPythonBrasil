@@ -8,3 +8,4 @@ if letra in vogal or letra in vogal2:
     print('A letra que você digitou é vogal')
 else:
     print('A letra que você digitou é consoante.')
+    

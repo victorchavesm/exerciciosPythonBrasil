@@ -9,3 +9,4 @@ elif sexo == 'M':
     print('Você selecionou Masculino.')
 else:
     print('Você não digitou F ou M.')
+    

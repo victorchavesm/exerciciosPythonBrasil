@@ -12,3 +12,4 @@ elif turno == 'N':
     print('Você selecionou Noturno. \nBoa noite!')
 else:
     print('Valor inválido.')
+    
